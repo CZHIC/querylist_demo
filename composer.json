@@ -1,5 +1,19 @@
 {
+    "name": "C-Z-C/querylist_demo",
+    "description": "Third party message push",
+    "authors": [
+        {
+            "name": "CZC"
+        }
+    ],
+    "license": "MIT",
     "require": {
+        "php": ">=7.0",
         "jaeger/querylist": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "C-Z-C\\querylist_demo\\": "src/"
+        }
     }
 }
